@@ -1,0 +1,13 @@
+# PY_Code Flutter CLI configuration v1.0.0
+project:
+  name: simple_counter
+  type: flutter
+
+build:
+  default_type: debug
+  output_path: build/app/outputs/flutter-apk
+
+cloud:
+  provider: github
+  workflow: pycode-build.yml
+  poll_interval: 8
